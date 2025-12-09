@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: hello-world
-      - run: echo 'Hello World!' 
+        run: echo 'Hello World!' 
 
       - name: multiline
-      - run: |
+        run: |
           echo 'Line 1'
           echo 'Line 2'
     
